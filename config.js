@@ -94,7 +94,7 @@ var CONFIG = {
     "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "GDP- Per Capita (PPP)",
+    "which": "HDI",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -151,8 +151,8 @@ var CONFIG = {
    },
    "limit": 5000,
    "opacityHighlightDim": 0.1,
-   "opacityRegular": 1,
-   "opacitySelectDim": 0,
+   "opacityRegular": 0.46,
+   "opacitySelectDim": 0.54,
    "select": [
     {
      "Country": "Nepal",
@@ -162,31 +162,10 @@ var CONFIG = {
      ]
     },
     {
-     "Country": "Japan",
-     "labelOffset": [
-      0.03,
-      -0.049
-     ]
-    },
-    {
-     "Country": "Costa Rica",
-     "labelOffset": [
-      0.041,
-      -0.039
-     ]
-    },
-    {
      "Country": "China",
      "labelOffset": [
       0.025,
       -0.032
-     ]
-    },
-    {
-     "Country": "Norway",
-     "labelOffset": [
-      -0.039,
-      0.017
      ]
     },
     {
@@ -199,22 +178,15 @@ var CONFIG = {
     {
      "Country": "Rwanda",
      "labelOffset": [
-      0.029,
-      0.029
-     ]
-    },
-    {
-     "Country": "Switzerland",
-     "labelOffset": [
-      -0.04,
-      0.011
+      0.011,
+      0.03
      ]
     },
     {
      "Country": "Tanzania",
      "labelOffset": [
-      0.026,
-      -0.023
+      0.027,
+      -0.019
      ]
     },
     {
@@ -230,6 +202,26 @@ var CONFIG = {
       0.032,
       0.031
      ]
+    },
+    {
+     "Country": "Costa Rica",
+     "labelOffset": [
+      0.039,
+      -0.032
+     ]
+    },
+    {
+     "Country": "Japan",
+     "labelOffset": [
+      0.029,
+      -0.049
+     ]
+    },
+    {
+     "Country": "Norway"
+    },
+    {
+     "Country": "Switzerland"
     }
    ],
    "size": {
