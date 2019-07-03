@@ -1,15 +1,15 @@
 var CONFIG = {
  "data": {
-  "_lastModified": 1562139491597,
+  "_lastModified": 1562170250015,
   "hasNameColumn": false,
-  "lastModified": 1562139491597,
+  "lastModified": 1562170250015,
   "nameColumnPosition": 0,
   "noCache": true,
-  "path": "./data/FInal of Happiness Index 2012-2017  - Final Final.csv",
+  "path": "./data/FInal of Happiness Index 2012-2017  - Final Final-2.csv",
   "reader": "ext-csv",
   "sheet": "",
   "timeInColumns": true,
-  "ddfPath": "./data/FInal of Happiness Index 2012-2017  - Final Final.csv"
+  "ddfPath": "./data/FInal of Happiness Index 2012-2017  - Final Final-2.csv"
  },
  "locale": {
   "filePath": "assets/translation/",
@@ -94,7 +94,7 @@ var CONFIG = {
     "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "HDI",
+    "which": "GDP- Per Capita (PPP)",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -152,8 +152,86 @@ var CONFIG = {
    "limit": 5000,
    "opacityHighlightDim": 0.1,
    "opacityRegular": 1,
-   "opacitySelectDim": 0.3,
-   "select": [],
+   "opacitySelectDim": 0,
+   "select": [
+    {
+     "Country": "Nepal",
+     "labelOffset": [
+      0.019,
+      -0.02
+     ]
+    },
+    {
+     "Country": "Japan",
+     "labelOffset": [
+      0.03,
+      -0.049
+     ]
+    },
+    {
+     "Country": "Costa Rica",
+     "labelOffset": [
+      0.041,
+      -0.039
+     ]
+    },
+    {
+     "Country": "China",
+     "labelOffset": [
+      0.025,
+      -0.032
+     ]
+    },
+    {
+     "Country": "Norway",
+     "labelOffset": [
+      -0.039,
+      0.017
+     ]
+    },
+    {
+     "Country": "Pakistan",
+     "labelOffset": [
+      0.031,
+      -0.025
+     ]
+    },
+    {
+     "Country": "Rwanda",
+     "labelOffset": [
+      0.029,
+      0.029
+     ]
+    },
+    {
+     "Country": "Switzerland",
+     "labelOffset": [
+      -0.04,
+      0.011
+     ]
+    },
+    {
+     "Country": "Tanzania",
+     "labelOffset": [
+      0.026,
+      -0.023
+     ]
+    },
+    {
+     "Country": "Turkey",
+     "labelOffset": [
+      0.028,
+      -0.038
+     ]
+    },
+    {
+     "Country": "Zimbabwe",
+     "labelOffset": [
+      0.032,
+      0.031
+     ]
+    }
+   ],
    "size": {
     "allow": {
      "scales": [
@@ -173,7 +251,7 @@ var CONFIG = {
     "domainMin": null,
     "extent": [
      0,
-     0.48
+     0.65
     ],
     "fixBaseline": 0,
     "scaleType": "linear",
@@ -202,14 +280,15 @@ var CONFIG = {
     "domainMax": null,
     "domainMin": null,
     "extent": [
-     0,
-     0.33
+     0.17,
+     0.53
     ],
     "fixBaseline": 0,
-    "scaleType": "ordinal",
+    "scaleType": "linear",
+    "spaceRef": null,
     "syncModels": [],
-    "use": "constant",
-    "which": "_default",
+    "use": "indicator",
+    "which": "GDP- Per Capita (PPP)",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -269,12 +348,12 @@ var CONFIG = {
    "immediatePlay": true,
    "loop": false,
    "offset": 0,
-   "pauseBeforeForecast": true,
+   "pauseBeforeForecast": false,
    "playable": true,
    "playing": false,
    "record": false,
    "round": "round",
-   "showForecast": true,
+   "showForecast": false,
    "start": "2012",
    "startOrigin": null,
    "startSelected": "2012",
@@ -303,16 +382,16 @@ var CONFIG = {
    },
    "labels": {
     "dragging": true,
-    "removeLabelBox": false
+    "removeLabelBox": true
    },
-   "lockNonSelected": 0,
+   "lockNonSelected": "2017",
    "margin": {
     "left": 86.85000000000001,
     "top": 0
    },
    "showForecastOverlay": false,
    "superhighlightOnMinimapHover": true,
-   "trails": true,
+   "trails": false,
    "whenHovering": {
     "higlightValueX": true,
     "higlightValueY": true,
