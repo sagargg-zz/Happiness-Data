@@ -246,7 +246,7 @@ var CONFIG = {
      0.65
     ],
     "fixBaseline": 0,
-    "scaleType": "linear",
+    "scaleType": "ordinal",
     "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
@@ -325,7 +325,7 @@ var CONFIG = {
    "autoconfig": {
     "type": "time"
    },
-   "delay": 1200,
+   "delay": 2200,
    "delayThresholdX2": 90,
    "delayThresholdX4": 45,
    "dim": "time",
